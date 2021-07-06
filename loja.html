@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--Definindo o título da página no navegador-->
+  <title>Loja | BIG BANG GAMES</title>
+  <!--Tag <meta> para que o navegador consiga ler a acentuação do site sem dificuldade-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- reset.css para corrigir erros de espaçamentos, etc. que podem ocorrer no navegador-->
+  <link rel="stylesheet" type="reset.css">
+  <!--Links do Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <!--Fim dos Links do Google Fonts-->
+  <!--Links do Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Fim dos links do Bootstrap-->
+</head>
+<!--Início do CSS-->
+<style>
+    /*Estilização de toda a parte principal da página*/
+    main h1{
+      /*Definindo alinhamento, tamanho da fonte e peso do título*/
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: 'Arimo', sans-serif;
+    }
+
+    /*Estilização do texto da página*/
+    main p{
+      /*Definindo espaçamento interno e tamanho da fonte do texto de entrada*/
+      padding: 15px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      
+    }
+
+    /*Estilização dos produtos da página*/
+    .nav-item{
+      /*Definindo espaçamento e margem dos produtos*/
+      padding: 70px ;
+      margin: 0 30px;
+      margin-bottom: 40px;
+    }
+
+    /*Estilização dos produtos quando o mouse passar por cima*/
+    .nav-item:hover{
+      /*Definindo o estilo do cursor e a transoformação dos produtos quando o mouse passa por cima*/
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+    /*Estilização do preço dos produtos*/
+    .preco{
+      /*Definindo a decoração e a margem dos preços*/
+      text-decoration: underline;
+      margin-top: 5px auto;
+    }
+
+    /*Estilização dos preços quando o mouse passar por cima*/
+    .preco:hover{
+      /*Definindo a transformação dos preços quando o mouse passar por cima*/
+      transform: scale(1.2);
+    }
+    /*Estilização do rodapé*/
+    .rodape{
+      /*Definindo o fundo e o espaçamento interno do rodapé*/
+      background: black;
+      padding: 30px;
+    }
+
+</style>
+<!--Fim do CSS-->
+
+<!--Início do corpo da página-->
+<body>
+  <!--Começo do cabeçalho da página-->
+  <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--Logo da página-->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item-bar">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item-bar">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item-bar">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <!--Fim do cabeçalho da página-->
+
+  <!--Início da parte principal da página-->
+  <main>
+        <!--Texto de entrada do site-->
+        <h1> Nossos produtos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan luctus arcu id ultrices. Maecenas eget mattis ipsum. Fusce non sem nunc. Aliquam aliquam eros sed lorem tincidunt luctus sit amet vitae odio. Vestibulum quis dolor dignissim, gravida ipsum quis, ultricies velit. Fusce sit amet convallis magna. Donec pharetra neque ac tortor porttitor hendrerit. Vestibulum nec risus scelerisque, posuere magna vitae, vestibulum est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <!--Fim do texto-->
+
+          <!--Sessão de consoles-->
+
+          
+      
+      <center>
+    <div class="container">
+        <h2>Consoles</h2>
+        <p>TOP 3 -Os melhores consoles da atualidade</p>
+      <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <img src="img/videogame1.png" width="150px">
+            <a class="nav-link" href="https://www.carrefour.com.br/console-playstation-5-ps5-sony-disc-version-pronta-entrega-mp910944020/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=todos_produtos&gclid=CjwKCAjwtdeFBhBAEiwAKOIy5399uXp0XaMS6eWe6U5XQdd1v5lCRGWLCu78jmmKx8zf5LEX9eYccBoCpvIQAvD_BwE
+            " target="_blank">Sony Playstation 5
+              <p class="preco">R$7.600,00
+            </a>
+         </li>
+
+        <li class="nav-item">
+          <img src="img/videogame2.jpg" width="150px" height="212.5px">
+          <a class="nav-link" href="https://www.submarino.com.br/produto/2843924885?loja=34676648000102&epar=bp_pl_00_go_g35169&opn=XMLGOOGLE&WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&i=5ea0e84649f937f62547ead5&o=601854c9f8e95eac3de787db&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ7lDv2BS08dPD0rgWQ9Z6t8OwMOUh9YcNQ3RHKfNhD2Ei2Tk0pQkScaAr9fEALw_wcB
+          "target="_blank">Xbox Series X
+            <p class="preco">R$7.220,00</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <img src="img/videogame3.jpg" width="150px" height="212.5px">
+          <a class="nav-link" href="https://www.amazon.com.br/Console-Nintendo-Switch-Vermelho-Nacional/dp/B08LF257QB/ref=asc_df_B08LF257QB/?tag=googleshopp00-20&linkCode=df0&hvadid=412538568705&hvpos=&hvnetw=g&hvrand=17786885953614813482&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032028&hvtargid=pla-1049926755088&psc=1" target="_blank">Nintendo Switch
+            <p class="preco">R$2.649,00
+          </a>
+        </li>
+      </ul>
+      
+    </div>
+    <!--Fim da sessão de consoles-->
+
+    <!--Início da sessão de jogos-->
+    <div class="container">
+          <h2>Jogos</h2>
+          <p>TOP 3 - Os jogos mais jogados do momento</p>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <img src="img/fortnite.png" width="150px" height="212.5">
+          <a class="nav-link" href="https://www.epicgames.com/fortnite/pt-BR/home" target="_blank">Fortnite
+            <p class="preco">Grátis</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <img src="img/gta5.png" width="150px" height="212.5">
+          <a class="nav-link" href="https://www.magazineluiza.com.br/grand-theft-auto-v-premium-online-edition-para-ps4-rockstar/p/220750800/ga/otga/?&force=2&seller_id=magazineluiza" target="_blank">GTA V
+            <p class="preco">R$120,00</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <img src="img/resident.jpg" width="150px" height="212.5">
+          <a class="nav-link" href="https://www.amazon.com.br/Resident-Evil-Village-PlayStation-4/dp/B091X3X6XZ/ref=asc_df_B091X3X6XZ/?tag=googleshopp00-20&linkCode=df0&hvadid=379706812765&hvpos=&hvnetw=g&hvrand=18043156782891497786&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032028&hvtargid=pla-1236610305590&psc=1" target="_blank">Resident Evil Village
+            <p class="preco">R$263,99</p>
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+  <!--Fim da sessão de jogos-->
+
+  <!--Sessão de acessórios-->
+    <div class="container">
+      <h2>Acessórios</h2>
+      <p>Os melhores acessórios para sua gameplay</p>
+
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <img src="img/controle.jpg" width="150px" height="212.5">
+            <a class="nav-link" href="https://www.magazineluiza.com.br/controle-dualsense-playstation-5-ps5/p/043186600/ga/ctlp/?&force=2&seller_id=magazineluiza&&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=58957&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ5qZ3lbuXabTdBOSQ8lyv9A_DBROVCk8DyabgpW1U98SUW4G63RQEgaAg4YEALw_wcB" target="_blank">Controle Playstation 5
+              <p class="preco">R$445,55</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <img src="img/fonegamer.jpg" width="150px" height="212.5">
+            <a class="nav-link" href="https://www.amazon.com.br/Headset-HyperX-Microfones-ouvido-Vermelho/dp/B074NBSF9N/ref=asc_df_B074NBSF9N/?tag=googleshopp00-20&linkCode=df0&hvadid=379720486248&hvpos=&hvnetw=g&hvrand=14163766501721062275&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032028&hvtargid=pla-434383799193&psc=1" target="_blank">Fone Gamer
+              <p class="preco">R$549,90</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <img src="img/tecladogamer.jpg" width="150px" height="212.5">
+            <a class="nav-link" href="https://www.amazon.com.br/TECLADO-MEC%C3%82NICO-GAMER-HYPERX-ORIGINS/dp/B0887KTVGV/ref=asc_df_B0887KTVGV/?tag=googleshopp00-20&linkCode=df0&hvadid=379707456874&hvpos=&hvnetw=g&hvrand=2335215324094834497&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032028&hvtargid=pla-1185583261179&psc=1" target="_blank">Teclado Gamer
+              <p class="preco">R$599,90</p>
+            </a>
+          </li>
+        </ul>
+    </div>
+     <!--Fim da sessão de acessórios-->
+  </main>
+
+ <!--Rodapé da página-->
+  <footer class="rodape">       
+    <img src="img/rodape.png" class="rounded" alt="Cinque Terre" width="100%" height="300px"> 
+  </footer>
+  <!--Fim do rodapé da página-->
+   
+</body>
+<!--Fim do corpo da página-->
+</html>

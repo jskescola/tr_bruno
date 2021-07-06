@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--Definindo o título da página no navegador-->
+  <title>Login | BIG BANG GAMES</title>
+  <!--Tag <meta> para que o navegador consiga ler a acentuação do site sem dificuldade-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- reset.css para corrigir erros de espaçamentos etc que podem ocorrer no navegador-->
+  <link rel="stylesheet" type="reset.css">
+  <!--Links do Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <!--Fim dos Links do Google Fonts-->
+  <!--Links do Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Fim dos links do Bootstrap-->
+</head>
+<!--Começo do CSS-->
+<style>
+    /*Estilização do texto de boas vindas*/
+    .sobre{
+      /*Definindo a fonte, tamanho da fonte e o espaçamento interno do texto*/
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      padding: 15px;
+    }
+
+    /*Estilização do rodapé*/
+    .rodape{
+      /*Definindo o fundo e o espaçamento interno do rodapé*/
+      background: black;
+      padding: 30px;
+    }
+
+</style>
+<!--Fim do CSS-->
+<!--Início do corpo da página-->
+<body>
+  <!--Início do Cabeçalho-->
+  <header>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--Logo da página-->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+
+  </header>
+  <!--Fim do cabeçalho-->
+  
+  <!--Login-->
+  <div class="container">
+    <h2>Login</h2>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="name@email.com" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="********" name="pswd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+           <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+
+        <!--Botão de login-->
+        <a href="index.html" button type="submit" class="btn btn-primary">Login</a></button>
+      </form>
+  </div>
+
+  <!--Texto de boas vindas ao usuário-->
+  <p class="sobre">Nosso site foi criado para que todos os gamers de todas as partes do mundo estejam sempre conectados e por dentro de todas as atualizações no mundo dos jogos, aqui você encontrará Gameplays engraçadas e de alto nível de vários youtubers, informações sobre nossa loja, além de uma loja virtual para você jogador adquirir os melhores consoles, jogos e acessórios para sua gameplay.<br>
+  Let's go Player! ;)</p>
+
+
+   <!--Rodapé da página-->
+  <footer class="rodape">       
+    <img src="img/rodape.png" class="rounded" alt="Cinque Terre" width="100%" height="300px"> 
+  </footer>
+  <!--Fim do rodapé da página-->
+
+</body>
+<!--Fim do corpo da página-->
+</html>

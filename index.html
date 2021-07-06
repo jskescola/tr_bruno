@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--Definindo o título da página no navegador-->
+  <title>HOME | BIG BANG GAMES</title>
+  <!--Tag <meta> para que o navegador consiga ler a acentuação do site sem dificuldade-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- reset.css para corrigir erros de espaçamentos etc que podem ocorrer no navegador-->
+  <link rel="stylesheet" type="reset.css">
+  <!--Links do Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <!--Fim dos Links do Google Fonts-->
+  <!--Links do Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Fim dos links do Bootstrap-->
+</head>
+<!--Início do CSS-->
+<style>
+  .titulo-texto{
+    /*Definindo o alinhamento, tamanho, decoração do título do texto principal*/
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .texto{
+    /*Definindo a fonte, tamanho e espaçamento interno do texto principal*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .mapa{
+    /*Definindo a margem da sessão do mapa*/
+    margin-top: 30px;
+  }
+
+  .titulo-mapa{
+    /*Definindo o alinhamento do título que vem antes do mapa*/
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .titulo-mapa p{
+    /*Definindo a fonte so subtítulo do mapa*/
+     font-family: 'Open Sans', sans-serif;
+  }
+
+  .conteudo-mapa{
+    /*Definindo o alinhamento, o fundo e a margin abaixo do mapa*/
+    text-align: center;
+    background: linear-gradient(#FFFFFF, #F0F0F0);
+    margin-bottom: 20PX;
+  }
+
+  .rodape{
+    /*Definindo o fundo e o espaçamento interno do rodapé*/
+    background: black;
+    padding: 30px;
+  };
+
+</style>
+<!--FIm do Css-->
+<!--Início do Corpo da página-->
+<body>
+  <!--Início do Cabeçalho-->
+  <header>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--Logo da página-->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+
+  </header>
+  <!--Fim do cabeçalho-->
+
+    <!--Parte Principal da Página-->
+    <main>
+      <!--Título do texto principal-->
+      <h2 class="titulo-texto"> Vantagens da nossa loja </h2>
+      <!--Texto principal-->
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id odio et turpis facilisis sagittis. Praesent posuere magna nec mauris fringilla, eget molestie ligula suscipit. Aenean sagittis turpis dolor, at auctor nibh euismod eget. Sed sed turpis rutrum, vestibulum felis vel, fermentum eros. Nulla pharetra mauris in sem sollicitudin pulvinar. Morbi imperdiet egestas maximus. Quisque ornare elementum augue, in iaculis quam cursus a. Aliquam a fringilla est. Morbi sit amet accumsan magna. Cras tempus lectus vitae dapibus accumsan. Etiam tempus libero sed orci viverra tristique. Curabitur sagittis pulvinar diam, ut aliquam erat suscipit et. Quisque hendrerit justo enim, eu iaculis tellus ultrices pharetra. Etiam pulvinar, ipsum a ultrices aliquet, urna urna mollis lectus, vehicula mattis urna metus id elit.<br><br>
+
+
+            
+
+        </div>
+      <center>
+        <!--Título, subtítulo e imagem de um video-game-->
+        <div class="container">
+          <h2>Consoles e Jogos</h2>
+          <p>Aqui você encontra os melhores produtos para sua gameplay</p>            
+          <img src="img/imagem-principal.png" class="rounded" alt="Imagem de um videogame" width="100%" height="100%"> 
+        </div>  <br><br>
+        <!--Título e subtítulo do vídeo-->
+        <div class="container">
+            <h2>Melhores gameplays</h2>
+            <p>Aqui você encontra as melhores gameplays dos gamers mais famosos da internet</p>
+        <!--Vídeo-->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mYPZyCW9CM" allowfullscreen ></iframe>
+          </div>
+        </div>
+      </center>
+
+        <!--Localização da loja-->
+        <div class="mapa">
+          <div class="titulo-mapa">
+            <h2>Nossa localização</h2>
+            <p>Nossa loja é facilmente encontrada no norte pioneiro do Paraná</p>
+          </div>
+
+          <div class="conteudo-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14588.82901339527!2d-49.660057268861465!3d-23.91771403695336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c2205b79d5c455%3A0xfdc44fdbe5f99e4!2sS%C3%A3o%20Jos%C3%A9%20da%20Boa%20Vista%2C%20PR%2C%2084980-000!5e0!3m2!1spt-BR!2sbr!4v1622224849852!5m2!1spt-BR!2sbr" width="60%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <!--Fim da parte principal da página-->
+
+  <!--Rodapé da página-->
+  <footer class="rodape">       
+    <img src="img/rodape.png" class="rounded" alt="Cinque Terre" width="100%" height="300px"> 
+  </footer>
+  <!--Fim do rodapé da página-->
+
+    
+
+</body>
+<!--Fim do corpo da página-->
+</html>
